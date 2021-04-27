@@ -24,8 +24,8 @@ What is the purpose of the Radix Engine V2?
 	- frontend dev creates the User App UI
 	- instantiated components run within the Radix Finite State Machine
 	- the Radix Finite State Machine runs within the Radix VM
-	- the Radix VM uses Cerberus Consenses
-	- Blueprints and instantiated componets are sharable
+	- the Radix VM uses Cerberus Consensus
+	- Blueprints and instantiated components are sharable
 
 ### Major Features
 	- Component Blueprint Catalog
@@ -47,9 +47,9 @@ What is the purpose of the Radix Engine V2?
 		- a gumball
 		- rowdy roddy piper (a gumball user)
 
-#### Each of these elements is modelled as a component
+#### Each of these elements is modeled as a component
 		- quarters and gumballs have owners
-			- pecifically they have one owner at a time
+			- specifically they have one owner at a time
 			- they have the ability to transfer from one owner to another
 			- they are instantiated from a Token Blueprint
 		- Roddy and the gumball machine are more like containers
@@ -60,7 +60,7 @@ What is the purpose of the Radix Engine V2?
 
 	All of these elements would be modelled as blueprints.
 	
-#### Here is a closed atomic tranasaction
+#### Here is a closed atomic transaction
 Roddy wants to transfer a quarter to the gumball machine and get back a gumball.
 	
 	- Roddy uses the "buy" action of the Gumball Machine.
